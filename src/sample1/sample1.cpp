@@ -1,7 +1,8 @@
 // サンプル - ガウシアン(平滑化)フィルタ
-// test1.cpp
+// sample1.cpp
 #include <cv.h>
 #include <highgui.h>
+
 int main (int argc, char **argv){
 	int w, h, i, j;
 	IplImage *src_img, *dst_img;
